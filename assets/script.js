@@ -1,18 +1,5 @@
 'use strict';
 
-/**
- * Utility functions
- * OnEvent
- * getElement (by id)
- * select
- * selectAll
- * print
- * sleep
- * randomNumber
- * filterArray
- * create
- */
-
 // Add event listener
 function onEvent(event, selector, callback) {
   return selector.addEventListener(event, callback);
@@ -61,7 +48,8 @@ function create(element, parent = document) {
 }
 
 let businessName = 'Super Pizza Palace';
-let address = '123 Somewhere Ave';
+let address = '123 Somewhere Else Dr';
+let phoneNumber = '(123)456-7890';
 
 function login() {
   // Get user's email and password
