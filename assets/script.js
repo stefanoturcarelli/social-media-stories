@@ -48,8 +48,9 @@ function create(element, parent = document) {
 }
 
 let businessName = 'Super Pizza Palace';
-let address = '123 Somewhere Else Dr';
+let address = '123 Somewhere Rd';
 let phoneNumber = '(123)456-7890';
+let postalCode = 'R3A 039';
 
 function login() {
   // Get user's email and password
